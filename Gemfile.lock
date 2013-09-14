@@ -23,7 +23,10 @@ GEM
     faker (1.1.2)
       i18n (~> 0.5)
     i18n (0.6.1)
+    mini_portile (0.5.0)
     multi_json (1.6.1)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     pg (0.14.1)
     rack (1.5.2)
     rack-protection (1.5.0)
@@ -69,6 +72,7 @@ DEPENDENCIES
   activesupport
   factory_girl
   faker
+  nokogiri
   pg
   rack-test
   rake
